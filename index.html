@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Pemilah Sampah - CYBER_MODE</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <!-- Teachable Machine Image Model -->
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="cyber-glitch">SYS.TRASH_SORT</h1>
+            <p>SISTEM PENGENALAN LIMBAH OTOMATIS V1.0. PROSES DAUR ULANG DIWAJIBKAN.</p>
+            <p class="highlight">INIT_CAMERA_SCAN : ARAHKAN OBJEK KE SENSOR VISUAL.</p>
+        </header>
+
+        <main>
+            <div class="controls">
+                <select id="camera-select" class="cyber-select cyber-chamfer-sm" style="display:none;"></select>
+                <button id="start-btn" class="btn cyber-chamfer-sm">INIT_CAMERA</button>
+                <button id="stop-btn" class="btn btn-secondary cyber-chamfer-sm" style="display:none;">TERMINATE_CAMERA</button>
+            </div>
+
+            <div id="status-container" class="status-box cyber-chamfer-sm">
+                <span id="status-text">AWAITING_INPUT</span>
+            </div>
+
+            <div class="dashboard-grid">
+                <div id="camera-container" class="card cyber-chamfer">
+                    <div class="card-header">VISUAL_FEED // OPTICAL_SENSOR</div>
+                    <div id="webcam-wrapper">
+                        <!-- Kamera -->
+                    </div>
+                </div>
+
+                <div id="result-container" class="card cyber-chamfer" style="display:none;">
+                    <div class="card-header">ANALYSIS_OUTPUT // AI_PREDICTION</div>
+                    <div class="result-content">
+                        <h2 id="result-label">PROCESSING...</h2>
+                        <div class="confidence-bar">
+                            <span id="confidence-text">0%</span>
+                            <div class="bar-wrapper">
+                                <div id="confidence-fill" class="bar-fill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div id="recommendation-box" class="recommendation cyber-chamfer-sm">
+                            <!-- Rekomendasi -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section card cyber-chamfer">
+                <div class="card-header">DATA_LOG // RECYCLING_IMPACT</div>
+                <p>Memilah sampah adalah protokol utama untuk menjaga keberlanjutan infrastruktur kota. Segregasi limbah mencegah kelebihan muatan sektor pembuangan akhir.</p>
+                
+                <h3>PENTINGNYA PROTOKOL PEMILAHAN</h3>
+                
+                <ul>
+                    <li><strong>MENGURANGI OVERLOAD TPA:</strong> Fasilitas pembuangan akhir mendekati kapasitas kritis. Pemilahan organik/anorganik adalah pencegahan primer.</li>
+                    <li><strong>EKONOMI SIRKULAR:</strong> Ekstraksi material dari plastik, logam, dan kertas mendaur ulang nilai material dan menghemat resource grid.</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
