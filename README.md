@@ -4,8 +4,9 @@
 
 # 
 
-[![Teachable Machine](https://img.shields.io/badge/Teachable_Machine-Model-34A853?logo=google&logoColor=white)](https://teachablemachine.withgoogle.com/models/HreYwvltN/)] 
-[![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-000000?logo=vercel&logoColor=white)](https://app-pemilah-sampah.vercel.app/)]
+[![Teachable Machine](https://img.shields.io/badge/Teachable_Machine-Model-34A853?logo=google&logoColor=white)](https://teachablemachine.withgoogle.com/models/HreYwvltN/)
+[![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-000000?logo=vercel&logoColor=white)](https://app-pemilah-sampah.vercel.app/)
+![badge](https://shieldcn.dev/badge/PDF%20File-Laporan-34A8.svg?variant=secondary&split=true&logo=ri%3ATbPdf&color=f63b3b&labelColor=3b3b3c)()
 
 </div>
 
@@ -41,3 +42,9 @@ Proyek ini ditenagai oleh **Google Teachable Machine (Image Classification)**.
   3. **Kertas**
   4. **Logam**
 - Sistem menggunakan batas kepercayaan (threshold) sebesar 90% sebelum mengeluarkan rekomendasi pasti untuk menghindari tebakan yang salah.
+
+<div align="center">
+  <video controls>
+    <source src="docs/media/Testing_Demo.mp4" type="video/mp4">
+  </video>
+</div>
