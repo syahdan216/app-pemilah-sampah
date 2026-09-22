@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Pemilah Sampah - CYBER_MODE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Image/pavicon.png" type="image/x-icon">
     <!-- TensorFlow.js -->
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
     <!-- Teachable Machine Image Model -->
-    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -22,7 +26,8 @@
             <div class="controls">
                 <select id="camera-select" class="cyber-select cyber-chamfer-sm" style="display:none;"></select>
                 <button id="start-btn" class="btn cyber-chamfer-sm">INIT_CAMERA</button>
-                <button id="stop-btn" class="btn btn-secondary cyber-chamfer-sm" style="display:none;">TERMINATE_CAMERA</button>
+                <button id="stop-btn" class="btn btn-secondary cyber-chamfer-sm"
+                    style="display:none;">TERMINATE_CAMERA</button>
             </div>
 
             <div id="status-container" class="status-box cyber-chamfer-sm">
@@ -56,18 +61,22 @@
 
             <div class="info-section card cyber-chamfer">
                 <div class="card-header">DATA_LOG // RECYCLING_IMPACT</div>
-                <p>Memilah sampah adalah protokol utama untuk menjaga keberlanjutan infrastruktur kota. Segregasi limbah mencegah kelebihan muatan sektor pembuangan akhir.</p>
-                
+                <p>Memilah sampah adalah protokol utama untuk menjaga keberlanjutan infrastruktur kota. Segregasi limbah
+                    mencegah kelebihan muatan sektor pembuangan akhir.</p>
+
                 <h3>PENTINGNYA PROTOKOL PEMILAHAN</h3>
-                
+
                 <ul>
-                    <li><strong>MENGURANGI OVERLOAD TPA:</strong> Fasilitas pembuangan akhir mendekati kapasitas kritis. Pemilahan organik/anorganik adalah pencegahan primer.</li>
-                    <li><strong>EKONOMI SIRKULAR:</strong> Ekstraksi material dari plastik, logam, dan kertas mendaur ulang nilai material dan menghemat resource grid.</li>
+                    <li><strong>MENGURANGI OVERLOAD TPA:</strong> Fasilitas pembuangan akhir mendekati kapasitas kritis.
+                        Pemilahan organik/anorganik adalah pencegahan primer.</li>
+                    <li><strong>EKONOMI SIRKULAR:</strong> Ekstraksi material dari plastik, logam, dan kertas mendaur
+                        ulang nilai material dan menghemat resource grid.</li>
                 </ul>
             </div>
         </main>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
