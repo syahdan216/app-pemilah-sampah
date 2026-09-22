@@ -1,6 +1,6 @@
 <div align="center">
 
-![AI Pemilah Sampah](https://shieldcn.dev/header/glow.svg?title=AI+Pemilah+Sampah&subtitle=Sebuah+web+untuk+Ulangan+KKA&logo=vercel&size=wide&mode=dark&font=jetbrains-mono&border=false&image=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1614850523459-c2f4c699c52e%3Fw%3D1600%26q%3D70%26fit%3Dcrop%26fm%3Djpg&overlay=0.7)
+![AI Pemilah Sampah](https://shieldcn.dev/header/glow.svg?title=AI+Pemilah+Sampah&subtitle=A+website+for+KKA+exam&logo=vercel&size=wide&mode=dark&font=jetbrains-mono&border=false&image=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1614850523459-c2f4c699c52e%3Fw%3D1600%26q%3D70%26fit%3Dcrop%26fm%3Djpg&overlay=0.7)
 
 # 
 
