@@ -6,7 +6,17 @@
 
 [![Teachable Machine](https://img.shields.io/badge/Teachable_Machine-Model-34A853?logo=google&logoColor=white)](https://teachablemachine.withgoogle.com/models/HreYwvltN/)
 [![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-000000?logo=vercel&logoColor=white)](https://app-pemilah-sampah.vercel.app/)
-![badge](https://shieldcn.dev/badge/PDF%20File-Laporan-34A8.svg?variant=secondary&split=true&logo=ri%3ATbPdf&color=f63b3b&labelColor=3b3b3c)()
+[![badge](https://shieldcn.dev/badge/PDF%20File-Laporan-34A8.svg?variant=secondary&size=xs&split=true&logo=ri%3ATbPdf&color=f63b3b&labelColor=3b3b3c)](https://github.com/syahdan216/app-pemilah-sampah/blob/main/docs/XI-3_KELOMPOK1_AIPemilahSampah.pdf)
+
+Uploading Testing_Demo.mp4…
+
+
+
+Uploading Testing_Demo.mp4…
+
+
+
+)
 
 </div>
 
