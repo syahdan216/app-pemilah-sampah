@@ -4,7 +4,11 @@
 
 # 
 
-[![Teachable Machine](https://img.shields.io/badge/Teachable_Machine-Model-34A853?logo=google&logoColor=white)](https://teachablemachine.withgoogle.com/models/5M97g-o4W/) [![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-000000?logo=vercel&logoColor=white)](https://app-pemilah-sampah.vercel.app/)
+[![Teachable Machine](https://img.shields.io/badge/Teachable_Machine-Model-34A853?logo=google&logoColor=white)](https://teachablemachine.withgoogle.com/models/5M97g-o4W/) 
+[![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-000000?logo=vercel&logoColor=white)](https://app-pemilah-sampah.vercel.app/)
+
+</div>
+
 # AI Pemilah Sampah
 
 Website edukasi sederhana untuk anak SMA yang mengajarkan pemanfaatan *Artificial Intelligence* (AI) dalam memilah sampah di kehidupan sehari-hari.
