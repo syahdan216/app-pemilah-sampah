@@ -4,8 +4,8 @@
 
 # 
 
-[![Teachable Machine](https://img.shields.io/badge/Teachable_Machine-Model-34A853?logo=google&logoColor=white)](https://teachablemachine.withgoogle.com/models/5M97g-o4W/) 
-[![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-000000?logo=vercel&logoColor=white)](https://app-pemilah-sampah.vercel.app/)
+[![Teachable Machine](https://img.shields.io/badge/Teachable_Machine-Model-34A853?logo=google&logoColor=white)](https://teachablemachine.withgoogle.com/models/HreYwvltN/)] 
+[![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-000000?logo=vercel&logoColor=white)](https://app-pemilah-sampah.vercel.app/)]
 
 </div>
 
@@ -34,7 +34,7 @@ Antarmuka web ini mengadopsi prinsip desain **Cyberpunk**:
 ## 🧠 Model AI
 Proyek ini ditenagai oleh **Google Teachable Machine (Image Classification)**.
 - Library: `@tensorflow/tfjs` dan `@teachablemachine/image`
-- [Link model AI](https://teachablemachine.withgoogle.com/models/5M97g-o4W/) 
+- [Link model AI](https://teachablemachine.withgoogle.com/models/HreYwvltN/) 
 - Model dilatih khusus untuk mengenali 4 kelas utama:
   1. **Botol Plastik**
   2. **Plastik**
